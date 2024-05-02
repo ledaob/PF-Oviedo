@@ -1,3 +1,13 @@
+header{
+    div {
+        a{
+            img.logo {
+                width: 25%;
+                padding: 10px;
+            }
+        }
+    }
+}
 main.index{ 
     
         div{
@@ -24,15 +34,6 @@ main.index{
                 margin: 15px;
                 box-shadow: 5px 5px #121212;
                 border-radius: 15px;
-            }
-        }
-
-        div {
-            a{
-                img.logo {
-                    width: 25%;
-                    padding: 10px;
-                }
             }
         }
 }
