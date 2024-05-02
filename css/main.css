@@ -207,9 +207,6 @@ main.servicios div.services-container div.texto-services {
   width: 350px;
   height: 300px;
 }
-main.servicios div.services-container div.texto-services:hover {
-  transform: scale(1, 1.2);
-}
 main.servicios div.services-container div.texto-services p {
   font-family: "Khand", sans-serif;
   font-size: x-large;
@@ -334,8 +331,9 @@ main.contact-container h3 {
     transform: scale(1, 1.2);
   }
   main.servicios div.services-container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
   main.servicios div.services-container div.servicio {
@@ -351,8 +349,6 @@ main.contact-container h3 {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 400px;
-    height: 350px;
   }
   main.ubicacion iframe {
     height: 250px;
@@ -455,6 +451,9 @@ main.contact-container h3 {
   }
   main.servicios div.services-container div.servicio:hover {
     filter: grayscale(80%) brightness(0.7);
+  }
+  main.servicios div.services-container div.texto-services:hover {
+    transform: scale(1, 1.2);
   }
   main.ubicacion iframe {
     height: 350px;

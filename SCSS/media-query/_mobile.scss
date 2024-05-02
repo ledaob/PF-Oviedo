@@ -39,8 +39,9 @@
     //HTML SERVICIOS
     main.servicios{
         div.services-container{ 
-            display: grid;
-            grid-template-columns: 1fr;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             gap: 20px;
             
         
@@ -57,12 +58,9 @@
             }
             div.texto-services{
                 display: flex;
-                flex-direction: column;
+                flex-direction: column;                
                 padding: 20px;
-                width: 400px;
-                height: 350px;
-            }
-            
+            }           
         }
     }
     //HTML UBICACION
