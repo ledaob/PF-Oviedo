@@ -1,0 +1,86 @@
+main.servicios{
+    
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-family: "Khand", sans-serif;
+            font-weight: 700;
+            text-shadow: 1px 1px 1px #4f4f4f;
+            padding-top: 10px;
+            animation: title-anim 2.5s linear forwards;
+        }
+
+
+        h3{
+            color: nth($colores , 4);
+            font-size: x-large;
+            text-align: start;
+        
+        }
+
+        div.services-container{
+                @include grid-servicios(2,50px);
+                
+
+                div.servicio{
+                    display: flex;
+                    align-items: center;
+                    img.img-services{                            
+                            width: 100%;
+                            margin: 10px;
+                            border-radius: 20px;                            
+                    }
+                    &:hover{
+                        filter: grayscale(80%);
+                    }
+                }
+                div.texto-services{
+                    margin: 50px;
+                    display: flex;                    
+                    justify-content: center;
+                    align-items: center; 
+                    border: 2px solid rgb(247, 7, 7);
+                    border-radius: 25px; 
+                    box-shadow: 5px 5px 5px rgb(231, 71, 71);
+                    width: 350px;
+                    height: 300px;
+
+                    &:hover{
+                        transform: scale(1, 1.2);
+                    }
+                    
+                    p{ 
+                        font-family: $font;    
+                        font-size: $f-size; 
+                        font-weight: $f-weight;
+                        margin: 20px;
+                        
+                    }
+                }
+        }
+}
+
+@keyframes title-anim {
+    0%{
+        width: 0;
+        height: 25%;
+    }
+
+    25%{
+        width: 25%;
+        height: 25%;
+    }
+
+    50%{
+        width: 50%;
+        height: 25%;
+    }
+
+    100%{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+
+

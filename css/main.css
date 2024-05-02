@@ -1,0 +1,485 @@
+header {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #4f4f4f;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px black;
+}
+header nav div.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav div.container-fluid ul {
+  gap: 3rem;
+  padding-left: 3rem;
+}
+header nav div.container-fluid ul li a.nav-link {
+  color: #dcdcdc;
+  gap: 10px;
+  font-size: large;
+}
+header nav div.container-fluid ul li a.nav-link:active {
+  color: red;
+  text-decoration: underline;
+}
+header div a img.logo {
+  width: 25%;
+  padding: 10px;
+}
+
+footer {
+  background-color: #4f4f4f;
+  color: #dcdcdc;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+footer p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  font-size: large;
+}
+footer nav ul li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 0;
+}
+footer nav ul li a {
+  color: #dcdcdc;
+  font-size: large;
+}
+footer nav ul li .footer-item-facebook:hover {
+  color: blue;
+}
+footer nav ul li .footer-item-instagram:hover {
+  color: magenta;
+}
+footer nav ul li .footer-item-whatsapp:hover {
+  color: greenyellow;
+}
+
+main.index div h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f !important;
+  padding-top: 10px;
+  animation: title-anim 2.5s linear backwards;
+}
+main.index div p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+main.index div video {
+  width: 97%;
+  margin: 15px;
+  box-shadow: 5px 5px #121212;
+  border-radius: 15px;
+}
+
+@keyframes title-anim {
+  0% {
+    width: 0;
+    height: 25%;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+    height: 25%;
+  }
+  100% {
+    width: 100%;
+    height: 50%;
+  }
+}
+main.productos h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+  animation: title-anim 2.5s linear forwards;
+}
+main.productos h3 {
+  color: #191919;
+  font-size: large;
+  text-align: start;
+}
+main.productos div.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+main.productos div.grid-container div.product {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+main.productos div.grid-container div.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+main.productos div.grid-container div.texto-producto {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.productos div.grid-container div.texto-producto p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+@keyframes title-anim {
+  0% {
+    width: 0;
+    height: 25%;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+    height: 25%;
+  }
+  100% {
+    width: 100%;
+    height: 50%;
+  }
+}
+main.servicios h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+  animation: title-anim 2.5s linear forwards;
+}
+main.servicios h3 {
+  color: #121212;
+  font-size: x-large;
+  text-align: start;
+}
+main.servicios div.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+main.servicios div.services-container div.servicio {
+  display: flex;
+  align-items: center;
+}
+main.servicios div.services-container div.servicio img.img-services {
+  width: 100%;
+  margin: 10px;
+  border-radius: 20px;
+}
+main.servicios div.services-container div.servicio:hover {
+  filter: grayscale(80%);
+}
+main.servicios div.services-container div.texto-services {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(247, 7, 7);
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(231, 71, 71);
+  width: 350px;
+  height: 300px;
+}
+main.servicios div.services-container div.texto-services:hover {
+  transform: scale(1, 1.2);
+}
+main.servicios div.services-container div.texto-services p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  margin: 20px;
+}
+
+@keyframes title-anim {
+  0% {
+    width: 0;
+    height: 25%;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+    height: 25%;
+  }
+  100% {
+    width: 100%;
+    height: 50%;
+  }
+}
+main.ubicacion h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+  animation: title-anim 2.5s linear forwards;
+}
+main.ubicacion h3 {
+  color: #121212;
+  font-size: x-large;
+  text-align: start;
+}
+main.ubicacion iframe {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+main.ubicacion p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+@keyframes title-anim {
+  0% {
+    width: 0;
+    height: 25%;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+    height: 25%;
+  }
+  100% {
+    width: 100%;
+    height: 50%;
+  }
+}
+main.contact-container h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+  animation: title-anim 2.5s linear forwards;
+}
+main.contact-container h3 {
+  color: #191919;
+  font-size: large;
+  text-align: start;
+}
+
+@keyframes title-anim {
+  0% {
+    width: 0;
+    height: 25%;
+  }
+  25% {
+    width: 25%;
+    height: 25%;
+  }
+  50% {
+    width: 50%;
+    height: 25%;
+  }
+  100% {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header div a img.logo {
+    width: 75%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    grid-template-columns: 1fr;
+  }
+  main.productos div.grid-container div.product img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.productos div.grid-container div.product:hover {
+    transform: scale(1, 1.2);
+  }
+  main.servicios div.services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  main.servicios div.services-container div.servicio {
+    display: flex;
+    flex-direction: column;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 80%;
+    border-radius: 20px;
+    margin: 50px;
+  }
+  main.servicios div.services-container div.texto-services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+  }
+  main.ubicacion iframe {
+    height: 250px;
+  }
+  main.contact-container form {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: stretch;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  header div a img.logo {
+    width: 50%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main.productos div.grid-container div.product img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.productos div.grid-container div.product:hover {
+    transform: scale(1, 1.2);
+  }
+  main.servicios div.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  main.servicios div.services-container div.servicio:hover {
+    transform: scale(1, 1.2);
+  }
+  main.servicios div.services-container div.texto-services p {
+    font-size: large;
+  }
+  main.ubicacion iframe {
+    height: 275px;
+  }
+  main.contact-container form {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: stretch;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 769px) {
+  header div a img.logo {
+    width: 35%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  main.productos div.grid-container div.product img {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+  }
+  main.productos div.grid-container div.product:hover {
+    transform: scale(1, 1.2);
+  }
+  main.servicios div.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  main.servicios div.services-container div.servicio:hover {
+    filter: grayscale(80%) brightness(0.7);
+  }
+  main.ubicacion iframe {
+    height: 350px;
+  }
+  main.contact-container form {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: stretch;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(138, 137, 137), rgb(231, 230, 230));
+  padding: 5px 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

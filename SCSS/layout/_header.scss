@@ -1,0 +1,51 @@
+header {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: nth($colores, 1);
+    align-content: center;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 2px black;
+
+
+
+        nav {    
+            
+            div.container-fluid{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                ul{
+                    gap: 3rem;
+                    padding-left: 3rem;
+                        li {
+                            a.nav-link {
+
+                                color: nth($colores, 2);
+                                gap: 10px;
+                                font-size: large;                           
+    
+                                &:active {
+                                    color: nth($colores, 5);
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+        
+
+        div {
+            a{
+                img.logo {
+                    width: 25%;
+                    padding: 10px;
+                }
+            }
+        }
+
+    }

@@ -1,0 +1,53 @@
+main.index{ 
+    
+        div{
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                font-family: "Khand", sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 1px #4f4f4f !important;
+                padding-top: 10px;
+                animation: title-anim 2.5s linear backwards;
+            }
+
+            p{
+                font-family: $font;    
+                font-size: $f-size; 
+                font-weight:$f-weight;
+            }
+        }
+        
+        div{
+            video{
+                width: 97%;
+                margin: 15px;
+                box-shadow: 5px 5px #121212;
+                border-radius: 15px;
+            }
+        }
+}
+@keyframes title-anim {
+    0%{
+        width: 0;
+        height: 25%;
+    }
+
+    25%{
+        width: 25%;
+        height: 25%;
+    }
+
+    50%{
+        width: 50%;
+        height: 25%;
+    }
+
+    100%{
+        width: 100%;
+        height: 50%;
+    }
+} 
+        
+
+    
