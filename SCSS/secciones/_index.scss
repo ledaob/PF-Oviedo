@@ -26,6 +26,15 @@ main.index{
                 border-radius: 15px;
             }
         }
+
+        div {
+            a{
+                img.logo {
+                    width: 25%;
+                    padding: 10px;
+                }
+            }
+        }
 }
 @keyframes title-anim {
     0%{
